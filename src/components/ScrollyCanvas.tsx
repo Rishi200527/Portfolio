@@ -85,7 +85,7 @@ export default function ScrollyCanvas({ scrollYProgress }: ScrollyCanvasProps) {
   }, [imagesLoaded, images]);
 
   // Redraw image on scroll progress or window resize
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
+  useMotionValueEvent(scrollYProgress, "change", (latest: number) => {
     if (!imagesLoaded) return;
     
     // Map 0-1 to 0-(FRAME_COUNT-1)

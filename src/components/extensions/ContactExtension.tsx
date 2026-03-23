@@ -7,8 +7,8 @@ import SectionHeading from "../ui/SectionHeading";
 
 export default function ContactExtension() {
   const contactInfo = [
-    { icon: <Mail size={22} />, label: "Email", value: "rishikarthik68@gmail.com", link: "mailto:rishikarthik68@gmail.com", color: "hover:text-cinematic-orange hover:shadow-[0_0_15px_rgba(255,123,0,0.5)]" },
-    { icon: <Phone size={22} />, label: "Phone", value: "+91 62357 15540", link: "tel:+916235715540", color: "hover:text-cinematic-teal hover:shadow-[0_0_15px_rgba(0,180,216,0.5)]" },
+    { icon: <Mail size={22} />, label: "Email", value: "rishikarthik68@gmail.com", link: "mailto:rishikarthik68@gmail.com", target: "_self", color: "hover:text-cinematic-orange hover:shadow-[0_0_15px_rgba(255,123,0,0.5)]" },
+    { icon: <Phone size={22} />, label: "Phone", value: "+91 62357 15540", link: "tel:+916235715540", target: "_self", color: "hover:text-cinematic-teal hover:shadow-[0_0_15px_rgba(0,180,216,0.5)]" },
     { icon: <Linkedin size={22} />, label: "LinkedIn", value: "in/rishi-karthik-s", link: "https://www.linkedin.com/in/rishi-karthik-s/", target: "_blank", rel: "noopener noreferrer", color: "hover:text-cinematic-orange hover:shadow-[0_0_15px_rgba(255,123,0,0.5)]" },
     { icon: <Github size={22} />, label: "GitHub", value: "github.com/Rishi200527", link: "https://github.com/Rishi200527", target: "_blank", rel: "noopener noreferrer", color: "hover:text-cinematic-teal hover:shadow-[0_0_15px_rgba(0,180,216,0.5)]" }
   ];

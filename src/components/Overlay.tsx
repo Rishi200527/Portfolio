@@ -4,12 +4,12 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { RefObject } from "react";
 
 interface OverlayProps {
-  containerRef: RefObject<HTMLDivElement | null>;
+  containerRef: RefObject<HTMLElement | null>;
 }
 
 export default function Overlay({ containerRef }: OverlayProps) {
   const { scrollYProgress } = useScroll({
-    target: containerRef,
+    target: containerRef as React.RefObject<HTMLElement>,
     offset: ["start start", "end end"],
   });
 
