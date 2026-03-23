@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import CustomCursor from "@/components/ui/CustomCursor";
 import ParticlesBackground from "@/components/ui/ParticlesBackground";
+import Navbar from "@/components/ui/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <ParticlesBackground />
         <CustomCursor />
+        <Navbar />
         {children}
       </body>
     </html>

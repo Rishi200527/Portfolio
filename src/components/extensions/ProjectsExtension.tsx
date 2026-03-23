@@ -35,12 +35,10 @@ export default function ProjectsExtension() {
   ];
 
   return (
-    <SectionWrapper id="projects-extension" className="py-20 relative z-10">
+    <SectionWrapper id="projects" className="py-20 relative z-10">
       
       <div className="w-full max-w-6xl mx-auto">
-        <div className="mb-12 text-center md:text-left">
-            <SectionHeading title="Selected Projects" />
-        </div>
+            <SectionHeading title="PROJECTS" />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 w-full relative z-10">
           {projects.map((project, idx) => (

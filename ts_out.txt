@@ -1,0 +1,22 @@
+src/components/extensions/AboutExtension.tsx(3,34): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/extensions/AboutExtension.tsx(4,47): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/extensions/CertificatesExtension.tsx(3,28): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/extensions/ContactExtension.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/extensions/ContactExtension.tsx(4,53): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/extensions/EducationExtension.tsx(5,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/extensions/ProjectsExtension.tsx(4,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/extensions/ProjectsExtension.tsx(5,38): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/extensions/ResumeExtension.tsx(4,36): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/extensions/ResumeExtension.tsx(7,59): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/extensions/SectionWrapper.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/extensions/SkillsExtension.tsx(5,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/extensions/SkillsExtension.tsx(6,48): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/HeroSection.tsx(4,27): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/Overlay.tsx(3,49): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/ResumeViewer.tsx(3,81): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/ResumeViewer.tsx(4,29): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/ScrollyCanvas.tsx(4,50): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/ScrollyCanvas.tsx(88,51): error TS7006: Parameter 'latest' implicitly has an 'any' type.
+src/components/ui/CustomCursor.tsx(4,34): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/ui/ParticlesBackground.tsx(4,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/ui/SectionHeading.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
